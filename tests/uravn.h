@@ -9,6 +9,7 @@ TEST(uravn1, suite1)
 {
     double x[2];
     x = uravn(1, 3, -4);
+    // tests
     ASSERT_EQ(x[0], -4);
     ASSERT_EQ(x[1], 1);
 }
