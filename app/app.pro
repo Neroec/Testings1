@@ -4,8 +4,9 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.c \
-    myfunc.c
-
+    myfunc.c \ 
+    uravn.c
+    
 HEADERS += \
     myfunc.h
 

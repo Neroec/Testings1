@@ -4,6 +4,6 @@
 
 int main()
 {
-    printf("Hello World!\n");
-    return myfunc(2);
+    uravn(1, 1, 1);
+    return 1;
 }
