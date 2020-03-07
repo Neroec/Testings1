@@ -5,6 +5,6 @@ int myfunc(int b);
 
 int fibonachi(int num);
 
-double* uravn(double a, double b, double c);
+int* uravn(double a, double b, double c);
 
 #endif // MYFUNC_H
