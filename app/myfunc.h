@@ -1,10 +1,15 @@
 #ifndef MYFUNC_H
 #define MYFUNC_H
 
+struct roots {
+    double x1;
+    double x2;
+};
+
 int myfunc(int b);
 
 int fibonachi(int num);
 
-int* uravn(double a, double b, double c);
+struct roots uravn(double a, double b, double c);
 
 #endif // MYFUNC_H
