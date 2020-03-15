@@ -6,9 +6,8 @@ before_install:
 
 addons:
   sonarcloud:
-   organization: "Neroec"
-   token:
-    secure: Neroe's_token
+   organization: "neroec"
+   token: $SONAR_TOKEN
 
 script:
   - qmake
