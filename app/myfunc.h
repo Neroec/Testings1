@@ -4,6 +4,8 @@
 struct roots {
     double x1;
     double x2;
+    int quadratic_equation;
+    int discriminant;
 };
 
 int myfunc(int b);
