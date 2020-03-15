@@ -1,0 +1,9 @@
+Описание тестов:
+
+uravn_positive. - позитивные тесты
+   positive_discriminant* - проверка с положительным дискриминантом
+   zero_discriminant* - проверка с нулевым дискриминантом
+
+uravn_negative. - негативные тесты
+   negative_discriminant* - проверка с отрицательным дискриминантом
+   non_quadratic_equation* - проверка с не квадратным уравнением

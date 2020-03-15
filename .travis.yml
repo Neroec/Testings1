@@ -6,7 +6,7 @@ before_install:
 
 addons:
   sonarcloud:
-   organization: "seekerk-github"
+   organization: "Neroec"
    token:
     secure: Neroe's_token
 
