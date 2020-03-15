@@ -30,7 +30,8 @@ TEST(uravn_positive, positive_discriminant2)
 TEST(uravn_positive, positive_discriminant3)
 {
     struct roots root;
-    double x2 = -1 / 3;
+    double a = -1, b = 3;
+    double x2 = a / b;
     root = uravn(3, -14, -5);
     // tests
     ASSERT_EQ(root.quadratic_equation, 1);
